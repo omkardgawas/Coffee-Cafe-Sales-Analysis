@@ -706,6 +706,7 @@ The dataset can identify patterns and relationships in sales performance, but ad
 **GitHub Repository:** ✅ Completed  
 **Presentation:** ✅ Added to Repository
 
----
+This project is focused on an end-to-end Power BI analysis of coffee café transaction data, from data validation and modeling through dashboard development, business insights, and presentation.
 
 ---
+
