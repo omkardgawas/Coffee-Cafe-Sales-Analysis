@@ -689,13 +689,16 @@ Therefore, profitability and profit margins cannot be calculated.
 The dataset can identify patterns and relationships in sales performance, but additional business information would be required to determine the causes behind specific changes in revenue.
 
 ---
+
 ## 14. Project Status
 
 ### Power BI
 
 **Dashboard:** ✅ Completed  
 **Analysis:** ✅ Completed  
-**Documentation:** 🔄 In Progress
+**Documentation:** ✅ Completed  
+**Dashboard Screenshot:** ✅ Added  
+**PBIX File:** ✅ Added to Repository
 
 ### Tableau
 
@@ -703,11 +706,13 @@ The dataset can identify patterns and relationships in sales performance, but ad
 **Analysis:** 🔄 Planned  
 **Documentation:** 🔄 Planned
 
+The Tableau implementation will be developed separately using the same source dataset and will be documented independently.
+
 ### Portfolio
 
 **GitHub Repository:** 🔄 In Progress  
 **Presentation:** 🔄 Planned
 
-The Tableau implementation will be developed and documented separately using the same source dataset.
+---
 
 ---
