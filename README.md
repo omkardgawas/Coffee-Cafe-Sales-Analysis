@@ -181,5 +181,15 @@ Coffee-Cafe-Sales-Analysis/
 │   └── Coffee_Cafe_Sales_Analysis.pptx
 │
 └── Screenshots/
+
+---
+
+# Coffee-Cafe-Sales-Analysis
+
+Coffee cafe sales analysis using Power BI and Tableau...
     ├── PowerBI_Dashboard.png
     └── Tableau_Dashboard.png
+
+---
+
+
