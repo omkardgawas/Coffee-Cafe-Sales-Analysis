@@ -309,7 +309,7 @@ SUMX(
     Transactions[transaction_qty] * Transactions[unit_price]
 )
 ```
-### This measure calculates total revenue by multiplying the quantity sold by the unit price for each transaction and then summing the results.
+#### This measure calculates total revenue by multiplying the quantity sold by the unit price for each transaction and then summing the results.
 
 #### Result:
 #### $698,812.33
