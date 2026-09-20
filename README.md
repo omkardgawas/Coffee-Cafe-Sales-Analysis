@@ -144,17 +144,6 @@ Based on the analysis:
 > These recommendations are based on transaction-level sales data. Additional business data would be required to determine the specific causes behind observed trends.
 
 ---
-
-# 📊 Tableau Analysis
-
-A separate Tableau dashboard will be created using the same dataset.
-
-The Tableau implementation will be documented independently to demonstrate the ability to analyze the same business problem using a different BI platform.
-
-> Tableau dashboard screenshot will be added here.
-
----
-
 ## 📁 Project Structure
 
 ```text
@@ -168,21 +157,13 @@ Coffee-Cafe-Sales-Analysis/
 ├── PowerBI/
 │   └── Coffee_Cafe_Sales_Analysis.pbix
 │
-├── Tableau/
-│   └── Coffee_Cafe_Sales_Analysis.twbx
-│
 ├── Documentation/
-│   ├── PowerBI_Documentation.md
-│   ├── Tableau_Documentation.md
-│   ├── Data_Dictionary.md
-│   └── Business_Insights.md
+│   └── PowerBI_Documentation.md
 │
 ├── Presentation/
-│   └── Coffee_Cafe_Sales_Analysis.pptx
+│   └── Coffee_Cafe_Sales_Analysis_Presentation.pptx
 │
 └── Screenshots/
-    ├── PowerBI_Dashboard.png
-    └── Tableau_Dashboard.png
-
+    └── PowerBI_Dashboard.png
 ```
 
