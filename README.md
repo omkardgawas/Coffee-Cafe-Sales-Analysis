@@ -113,7 +113,7 @@ Revenue is compared across the three café locations.
 
 ### Dashboard
 
-> Power BI dashboard screenshot will be added here.
+![Power BI Executive Dashboard](Screenshots/PowerBI_Dashboard.png)
 
 ---
 
