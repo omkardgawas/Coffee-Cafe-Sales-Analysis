@@ -74,13 +74,6 @@ The analysis focuses on answering the following questions:
 - Top-N analysis
 - Slicers and filtering
 
-### Tableau
-- Data visualization
-- Calculated fields
-- Interactive dashboards
-- Business analysis
-- Visual storytelling
-
 ### Supporting Tools
 - Microsoft Excel
 - GitHub
