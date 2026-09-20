@@ -215,7 +215,7 @@ The `Year-Month` column was also created to support chronological month-level fi
 
 ---
 
-## 6. Date Table
+## 6. Product Table
 
 A separate `ProductTable` was created to organize product-related attributes and support product-level analysis.
 
