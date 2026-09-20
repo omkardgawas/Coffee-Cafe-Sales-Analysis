@@ -700,18 +700,11 @@ The dataset can identify patterns and relationships in sales performance, but ad
 **Dashboard Screenshot:** ✅ Added  
 **PBIX File:** ✅ Added to Repository
 
-### Tableau
-
-**Dashboard:** 🔄 Planned  
-**Analysis:** 🔄 Planned  
-**Documentation:** 🔄 Planned
-
-The Tableau implementation will be developed separately using the same source dataset and will be documented independently.
 
 ### Portfolio
 
-**GitHub Repository:** 🔄 In Progress  
-**Presentation:** 🔄 Planned
+**GitHub Repository:** ✅ Completed  
+**Presentation:** ✅ Added to Repository
 
 ---
 
