@@ -285,7 +285,7 @@ This measure calculates the total number of product units sold.
 
 #### Result:
 
-214,470 units
+#### 214,470 units
 
 ---
 7.2 Total Transactions
@@ -297,9 +297,9 @@ This measure calculates the number of unique transactions.
 
 #### Result:
 
-149,116 transactions
+#### 149,116 transactions
 
-Using `DISTINCTCOUNT` ensures that each transaction ID is counted once.
+#### Using `DISTINCTCOUNT` ensures that each transaction ID is counted once.
 ---
 7.3 Total Revenue
 ```DAX
@@ -312,8 +312,7 @@ SUMX(
 This measure calculates total revenue by multiplying the quantity sold by the unit price for each transaction and then summing the results.
 
 #### Result:
-
-$698,812.33
+#### $698,812.33
 ---
 7.4 Average Transaction Value
 ```DAX
@@ -326,8 +325,7 @@ DIVIDE(
 This measure calculates the average revenue generated per transaction.
 
 ####  Result:
-
-$4.69
+#### $4.69
 ---
 7.5 Revenue Contribution %
 ```DAX
@@ -342,7 +340,7 @@ DIVIDE(
 ```
 This measure was created to evaluate the contribution of products or product categories to overall revenue.
 
-The `ALL(ProductTable)` function removes the product-level filter context when calculating the overall revenue denominator.
+#### The `ALL(ProductTable)` function removes the product-level filter context when calculating the overall revenue denominator.
 ---
 7.6 Month-over-Month Revenue Growth
 ```DAX
