@@ -213,6 +213,8 @@ instead of being displayed alphabetically.
 
 The `Year-Month` column was also created to support chronological month-level filtering and analysis.
 
+---
+
 ## 6. Date Table
 
 A separate `ProductTable` was created to organize product-related attributes and support product-level analysis.
@@ -263,3 +265,5 @@ The ProductTable was used throughout the dashboard for:
 - Top 5 Products by Revenue
 - Product-level filtering
 - Product contribution analysis
+
+---
