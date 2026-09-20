@@ -150,3 +150,33 @@ Transactions
     ▲
     │ 1 : *
 ProductTable
+```
+---
+
+## 5. Date Table
+
+A dedicated DateTable was created to support time-based analysis in Power BI.
+
+The table provides the following fields:
+
+- Date
+- Year
+- Month Number
+- Month Name
+- Year-Month
+
+The DateTable was created using the following DAX expression:
+
+```DAX
+DateTable =
+ADDCOLUMNS(
+    CALENDAR(
+        MIN(Transactions[transaction_date]),
+        MAX(Transactions[transaction_date])
+    ),
+    "Year", YEAR([Date]),
+    "Month Number", MONTH([Date]),
+    "Month Name", FORMAT([Date], "MMMM"),
+    "Year-Month", FORMAT([Date], "YYYY-MM")
+)
+```
