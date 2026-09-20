@@ -77,6 +77,7 @@ The analysis focuses on answering the following questions:
 ### Supporting Tools
 - Microsoft Excel
 - GitHub
+- Microsoft Powerpoint Presentation
 
 ---
 
