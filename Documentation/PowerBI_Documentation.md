@@ -155,17 +155,17 @@ ProductTable
 
 ## 5. Date Table
 
-A dedicated DateTable was created to support time-based analysis in Power BI.
+A dedicated `DateTable` was created to support time-based analysis in Power BI.
 
 The table provides the following fields:
 
-- Date
-- Year
-- Month Number
-- Month Name
-- Year-Month
+- `Date`
+- `Year`
+- `Month Number`
+- `Month Name`
+- `Year-Month`
 
-The DateTable was created using the following DAX expression:
+### DAX Used to Create the Date Table
 
 ```DAX
 DateTable =
@@ -180,3 +180,86 @@ ADDCOLUMNS(
     "Year-Month", FORMAT([Date], "YYYY-MM")
 )
 ```
+## Date Table Relationship
+
+The DateTable was connected to the Transactions table using:
+
+`DateTable[Date] → Transactions[transaction_date]`
+
+The relationship is:
+
+One-to-many (1:*)
+
+`DateTable` = One side
+`Transactions` = Many side
+Cross-filter direction = Single
+
+This relationship allows transaction-level measures to be analyzed by date, month, and year.
+
+Month Sorting
+
+The `Month Name` column was sorted by `Month Number`.
+
+This ensures that months appear in chronological order:
+
+`January
+February
+March
+April
+May
+June`
+
+instead of being displayed alphabetically.
+
+The `Year-Month` column was also created to support chronological month-level filtering and analysis.
+
+## 6. Date Table
+
+A separate `ProductTable` was created to organize product-related attributes and support product-level analysis.
+
+The table provides the following fields:
+
+- `Date`
+- `Year`
+- `Month Number`
+- `Month Name`
+- `Year-Month`
+
+### DAX Used to Create the Date Table
+
+```DAX
+ProductTable =
+DISTINCT(
+    SELECTCOLUMNS(
+        Transactions,
+        "Product_id", Transactions[product_id],
+        "Product_Category", Transactions[product_category],
+        "Product_Details", Transactions[product_detail],
+        "Product_Type", Transactions[product_type]
+    )
+)
+```
+The resulting ProductTable contains 80 unique products.
+
+Product Table Relationship
+
+The ProductTable was connected to the Transactions table using:
+
+`ProductTable[Product_id] → Transactions[product_id]`
+
+The relationship is:
+
+One-to-many (1:*)
+
+`ProductTable` = One side
+`Transactions` = Many side
+Cross-filter direction = Single
+
+This relationship allows product attributes such as category, product type, and product details to filter transaction-level measures.
+
+The ProductTable was used throughout the dashboard for:
+
+- Revenue by Product Category
+- Top 5 Products by Revenue
+- Product-level filtering
+- Product contribution analysis
