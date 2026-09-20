@@ -72,7 +72,7 @@ Before building the Power BI model, the dataset was checked for common data-qual
 ### Results
 
 | Check | Result |
-|---|---|
+|---|---:|
 | Duplicate Rows | 0 |
 | Duplicate Transaction IDs | 0 |
 | Null Values | 0 |
