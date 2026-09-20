@@ -180,7 +180,7 @@ ADDCOLUMNS(
     "Year-Month", FORMAT([Date], "YYYY-MM")
 )
 ```
-## Date Table Relationship
+### Date Table Relationship
 
 The DateTable was connected to the Transactions table using:
 
@@ -188,7 +188,7 @@ The DateTable was connected to the Transactions table using:
 
 The relationship is:
 
-One-to-many (1:*)
+#### One-to-many (1:*)
 
 `DateTable` = One side
 `Transactions` = Many side
@@ -241,7 +241,7 @@ DISTINCT(
 ```
 The resulting ProductTable contains 80 unique products.
 
-Product Table Relationship
+### Product Table Relationship
 
 The ProductTable was connected to the Transactions table using:
 
@@ -249,7 +249,7 @@ The ProductTable was connected to the Transactions table using:
 
 The relationship is:
 
-One-to-many (1:*)
+#### One-to-many (1:*)
 
 `ProductTable` = One side
 `Transactions` = Many side
