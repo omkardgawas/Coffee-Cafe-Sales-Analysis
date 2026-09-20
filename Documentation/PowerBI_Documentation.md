@@ -283,7 +283,7 @@ SUM(Transactions[transaction_qty])
 
 This measure calculates the total number of product units sold.
 
-### Result:
+#### Result:
 
 214,470 units
 
@@ -295,7 +295,7 @@ DISTINCTCOUNT(Transactions[transaction_id])
 ```
 This measure calculates the number of unique transactions.
 
-Result:
+#### Result:
 
 149,116 transactions
 
@@ -311,7 +311,7 @@ SUMX(
 ```
 This measure calculates total revenue by multiplying the quantity sold by the unit price for each transaction and then summing the results.
 
-Result:
+#### Result:
 
 $698,812.33
 ---
@@ -325,7 +325,7 @@ DIVIDE(
 ```
 This measure calculates the average revenue generated per transaction.
 
-###  Result:
+####  Result:
 
 $4.69
 ---
